@@ -6,7 +6,9 @@
 }
 
 .l-small {
-    @include breakpoint($breakpoint-10) { @include grid(16); }
+
+    @include breakpoint($breakpoint-10) { @include grid(32); }
+
     margin: auto;
 }
 
