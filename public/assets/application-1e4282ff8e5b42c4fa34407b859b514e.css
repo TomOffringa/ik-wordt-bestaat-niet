@@ -1,0 +1,1052 @@
+/* line 3, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 7, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 11, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+::-moz-selection {
+  background: #232725;
+  color: white;
+  text-shadow: none;
+}
+
+/* line 12, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+::selection {
+  background: #232725;
+  color: white;
+  text-shadow: none;
+}
+
+/* line 14, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+html {
+  color: #3f4542;
+  font: 400 17px sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 23, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+body {
+  line-height: 1.5em;
+}
+
+/* line 29, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+h1, h2, legend, h3, h4, h5, h6 {
+  font-family: georgia;
+  font-weight: 400;
+  line-height: 1.5em;
+  margin: 0 0 0.25em 0;
+}
+
+/* line 36, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+h1 {
+  font-size: 2rem;
+}
+
+/* line 39, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+h2,
+legend {
+  font-size: 1.4rem;
+}
+
+/* line 43, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+h3 {
+  font-size: 1.3rem;
+}
+
+/* line 45, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+h4 {
+  font-size: 1.2rem;
+}
+
+/* line 47, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+h5 {
+  font-size: 1.1rem;
+}
+
+/* line 49, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+h6 {
+  font-size: 1rem;
+}
+
+/* line 53, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+p {
+  margin-bottom: 1rem;
+}
+/* line 56, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+p.lead {
+  font-size: 1.125rem;
+}
+
+/* line 61, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+a {
+  color: #09a25f;
+  cursor: pointer;
+  text-decoration: none;
+}
+/* line 66, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+a:hover {
+  color: #038049;
+}
+
+/* line 71, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+small {
+  color: #8d9994;
+  font-size: 0.875rem;
+}
+
+/* line 76, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+em {
+  font-style: italic;
+}
+
+/* line 78, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 80, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+code, pre {
+  font-family: 'courier new', monospace;
+}
+
+/* line 82, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+pre {
+  overflow-x: auto;
+}
+
+/* line 84, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+abbr {
+  border-bottom: 1px dotted #aebbb6;
+}
+
+/* line 86, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 88, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+mark {
+  background-color: #ffffb3;
+}
+
+/* line 90, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+hr {
+  background-color: transparent;
+  border: solid #ccd6d2;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 2.5rem 1rem;
+}
+
+/* line 100, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+ul, ol {
+  margin: 0 0 1rem 1.5rem;
+}
+
+/* line 102, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+ul {
+  list-style: disc;
+}
+
+/* line 104, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+ol {
+  list-style: decimal;
+}
+
+/* line 106, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+dl {
+  margin-bottom: 1rem;
+}
+/* line 109, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+dl dt {
+  font-weight: bold;
+}
+/* line 110, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+dl dd {
+  margin-left: 1rem;
+}
+/* line 37, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_grid.css.scss */
+dl.advanced:before, dl.advanced:after {
+  content: "";
+  display: table;
+}
+/* line 42, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_grid.css.scss */
+dl.advanced:after {
+  clear: both;
+}
+/* line 115, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+dl.advanced dt {
+  float: left;
+  width: 31.25%;
+  margin-left: 0%;
+  margin-right: 2.08333%;
+}
+/* line 117, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_base.css.scss */
+dl.advanced dd {
+  float: left;
+  width: 66.66667%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+/* line 3, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_states.css.scss */
+.is-hidden {
+  display: none !important;
+}
+
+/* line 5, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_states.css.scss */
+.is-hidden, .is-invisible {
+  visibility: hidden !important;
+}
+
+/* line 7, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_states.css.scss */
+.is-active, .is-visible {
+  display: block;
+}
+
+/* line 9, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_states.css.scss */
+.left {
+  float: left;
+}
+
+/* line 11, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_states.css.scss */
+.right {
+  float: right;
+}
+
+/* line 13, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_states.css.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 15, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_states.css.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 17, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_states.css.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 19, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_states.css.scss */
+.nowrap {
+  white-space: nowrap;
+}
+
+@media (min-width: 34.70588rem) {
+  /* line 3, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_layout.css.scss */
+  .l-full {
+    float: left;
+    width: 95.83333%;
+    margin-left: 2.08333%;
+    margin-right: 2.08333%;
+  }
+}
+
+/* line 8, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_layout.css.scss */
+.l-small {
+  margin: auto;
+}
+@media (min-width: 34.70588rem) {
+  /* line 8, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_layout.css.scss */
+  .l-small {
+    float: left;
+    width: 29.16667%;
+    margin-left: 2.08333%;
+    margin-right: 2.08333%;
+  }
+}
+
+@media (min-width: 34.70588rem) {
+  /* line 13, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_layout.css.scss */
+  .l-two-third {
+    float: left;
+    width: 62.5%;
+    margin-left: 2.08333%;
+    margin-right: 2.08333%;
+  }
+}
+
+@media (min-width: 34.70588rem) {
+  /* line 18, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_layout.css.scss */
+  .l-half {
+    float: left;
+    width: 45.83333%;
+    margin-left: 2.08333%;
+    margin-right: 2.08333%;
+  }
+}
+
+@media (min-width: 34.70588rem) {
+  /* line 23, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_layout.css.scss */
+  .l-one-third {
+    float: left;
+    width: 29.16667%;
+    margin-left: 2.08333%;
+    margin-right: 2.08333%;
+  }
+}
+
+/* line 37, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_grid.css.scss */
+.l-grid:before, .l-grid:after {
+  content: "";
+  display: table;
+}
+/* line 42, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_grid.css.scss */
+.l-grid:after {
+  clear: both;
+}
+/* line 31, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_layout.css.scss */
+.l-grid li {
+  float: left;
+  width: 29.16667%;
+  margin-left: 2.08333%;
+  margin-right: 2.08333%;
+}
+
+/* line 34, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_layout.css.scss */
+.l-first {
+  clear: left;
+}
+
+/* line 37, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_layout.css.scss */
+div.l-container {
+  margin: auto;
+  max-width: 67.05882rem;
+  padding: 1rem;
+}
+/* line 37, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_grid.css.scss */
+div.l-container:before, div.l-container:after {
+  content: "";
+  display: table;
+}
+/* line 42, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_grid.css.scss */
+div.l-container:after {
+  clear: both;
+}
+@media (min-width: 45.23529rem) {
+  /* line 37, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_layout.css.scss */
+  div.l-container {
+    padding: 2rem;
+  }
+}
+
+/* line 4, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_buttons.css.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 9, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_buttons.css.scss */
+.button,
+input[type=submit],
+button, .button--neutral,
+input[type=submit].button--neutral,
+button.button--neutral, .button--success,
+input[type=submit].button--success,
+button.button--success, .button--alert,
+input[type=submit].button--alert,
+button.button--alert {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  border-radius: 0.125rem;
+  cursor: pointer;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: bold;
+  line-height: 1.5em;
+  margin: 0 0 0.25rem 0;
+  padding: 0.5rem 0.75rem;
+  text-decoration: none;
+  vertical-align: bottom;
+}
+/* line 28, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_buttons.css.scss */
+.button:focus,
+input[type=submit]:focus,
+button:focus, .button--neutral:focus, .button--success:focus, .button--alert:focus {
+  outline: 0;
+}
+
+/* line 34, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_buttons.css.scss */
+.button,
+input[type=submit],
+button {
+  background: #09a25f;
+  color: white;
+}
+/* line 39, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_buttons.css.scss */
+.button:hover,
+input[type=submit]:hover,
+button:hover {
+  background: #038049;
+  color: white;
+}
+/* line 45, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_buttons.css.scss */
+.button:active, .button:focus,
+input[type=submit]:active,
+input[type=submit]:focus,
+button:active,
+button:focus {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* line 52, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_buttons.css.scss */
+.button--neutral,
+input[type=submit].button--neutral,
+button.button--neutral {
+  background: #ccd6d2;
+  color: #3f4542;
+}
+/* line 57, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_buttons.css.scss */
+.button--neutral:hover,
+input[type=submit].button--neutral:hover,
+button.button--neutral:hover {
+  background: #aebbb6;
+  color: #3f4542;
+}
+/* line 63, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_buttons.css.scss */
+.button--neutral:active, .button--neutral:focus,
+input[type=submit].button--neutral:active,
+input[type=submit].button--neutral:focus,
+button.button--neutral:active,
+button.button--neutral:focus {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* line 70, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_buttons.css.scss */
+.button--success,
+input[type=submit].button--success,
+button.button--success {
+  background-color: #39b924;
+  color: white;
+}
+/* line 75, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_buttons.css.scss */
+.button--success:hover,
+input[type=submit].button--success:hover,
+button.button--success:hover {
+  background-color: #249c11;
+  color: white;
+}
+/* line 81, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_buttons.css.scss */
+.button--success:active, .button--success:focus,
+input[type=submit].button--success:active,
+input[type=submit].button--success:focus,
+button.button--success:active,
+button.button--success:focus {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* line 88, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_buttons.css.scss */
+.button--alert,
+input[type=submit].button--alert,
+button.button--alert {
+  background-color: #f3490d;
+  color: white;
+}
+/* line 93, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_buttons.css.scss */
+.button--alert:hover,
+input[type=submit].button--alert:hover,
+button.button--alert:hover {
+  background-color: #d33e09;
+  color: white;
+}
+/* line 99, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_buttons.css.scss */
+.button--alert:active, .button--alert:focus,
+input[type=submit].button--alert:active,
+input[type=submit].button--alert:focus,
+button.button--alert:active,
+button.button--alert:focus {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* line 3, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_figure.css.scss */
+figure {
+  display: inline-block;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+@media (min-width: 34.70588rem) {
+  /* line 8, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_figure.css.scss */
+  figure.is-left {
+    clear: left;
+    float: left;
+    padding-right: 1rem;
+    max-width: 50%;
+    width: auto;
+  }
+}
+@media (min-width: 34.70588rem) {
+  /* line 19, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_figure.css.scss */
+  figure.is-right {
+    clear: right;
+    float: right;
+    padding-left: 1rem;
+    max-width: 50%;
+    width: auto;
+  }
+}
+/* line 30, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_figure.css.scss */
+figure img {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+}
+/* line 36, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_figure.css.scss */
+figure figcaption {
+  color: #8d9994;
+}
+
+/* line 3, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_forms.css.scss */
+input[type=search] {
+  -webkit-appearance: textfield;
+}
+
+/* line 5, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_forms.css.scss */
+input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 15, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_forms.css.scss */
+input[type=text],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=email],
+input[type=tel],
+input[type=url],
+textarea,
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid #aebbb6;
+  color: inherit;
+  display: block;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0.5rem;
+  vertical-align: baseline;
+  width: 100%;
+}
+/* line 30, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_forms.css.scss */
+input[type=text]:focus,
+input[type=number]:focus,
+input[type=password]:focus,
+input[type=search]:focus,
+input[type=email]:focus,
+input[type=tel]:focus,
+input[type=url]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #8d9994;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+  outline: 0;
+}
+
+/* line 37, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_forms.css.scss */
+textarea {
+  display: block;
+  overflow: auto;
+  resize: vertical;
+  vertical-align: top;
+}
+
+/* line 44, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_forms.css.scss */
+select {
+  -webkit-appearance: menulist;
+  height: 2.85rem;
+}
+
+/* line 53, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_forms.css.scss */
+legend {
+  border: 0;
+  display: block;
+}
+
+/* line 58, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_forms.css.scss */
+ul.form {
+  list-style: none;
+  margin: 0 0 1rem 0;
+}
+/* line 37, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_grid.css.scss */
+ul.form > li:before, ul.form > li:after {
+  content: "";
+  display: table;
+}
+/* line 42, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_grid.css.scss */
+ul.form > li:after {
+  clear: both;
+}
+/* line 64, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_forms.css.scss */
+ul.form > li > label {
+  clear: left;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  padding-top: 0.5rem;
+  text-align: left;
+}
+@media (min-width: 34.70588rem) {
+  /* line 64, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_forms.css.scss */
+  ul.form > li > label {
+    float: left;
+    width: 31.25%;
+    margin-left: 0%;
+    margin-right: 2.08333%;
+    text-align: right;
+  }
+}
+/* line 77, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_forms.css.scss */
+ul.form > li > label:hover {
+  color: #232725;
+}
+/* line 80, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_forms.css.scss */
+ul.form div.form--fields {
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 34.70588rem) {
+  /* line 80, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_forms.css.scss */
+  ul.form div.form--fields {
+    float: left;
+    width: 66.66667%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+/* line 87, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_forms.css.scss */
+ul.form div.form--fields p, ul.form div.form--fields small {
+  display: block;
+  margin: 0.25rem 0;
+}
+/* line 92, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_forms.css.scss */
+ul.form div.form--fields p.form--description {
+  margin: 0.5rem 0;
+}
+
+/* line 96, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_forms.css.scss */
+ul.form--checklist {
+  list-style: none;
+  margin: 0.5rem 0;
+}
+/* line 100, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_forms.css.scss */
+ul.form--checklist li {
+  margin: 0.5rem 0;
+}
+/* line 102, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_forms.css.scss */
+ul.form--checklist input {
+  margin-right: 0.5rem;
+}
+/* line 104, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_forms.css.scss */
+ul.form--checklist label {
+  cursor: pointer;
+}
+/* line 107, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_forms.css.scss */
+ul.form--checklist label:hover {
+  color: #232725;
+}
+
+/* line 113, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_forms.css.scss */
+li.form--error label {
+  color: #f3490d;
+}
+/* line 116, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_forms.css.scss */
+li.form--error label:hover {
+  color: #d33e09;
+}
+/* line 120, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_forms.css.scss */
+li.form--error input,
+li.form--error input:focus {
+  border: 1px solid #f3490d;
+  box-shadow: 0px 0px 3px #f3490d;
+}
+/* line 125, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_forms.css.scss */
+li.form--error ul.form--errors {
+  color: #f3490d;
+  list-style: none;
+  margin: 0.25rem 0;
+}
+/* line 130, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_forms.css.scss */
+li.form--error ul.form--errors li {
+  font-size: 0.875rem;
+}
+
+/* line 3, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_labels.css.scss */
+.label, .label--neutral, .label--success, .label--alert {
+  border-radius: 0.125rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.1rem 0.25rem;
+}
+
+/* line 10, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_labels.css.scss */
+.label {
+  background: #09a25f;
+  color: white;
+}
+
+/* line 16, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_labels.css.scss */
+.label--neutral {
+  background: #ccd6d2;
+  color: #3f4542;
+}
+
+/* line 22, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_labels.css.scss */
+.label--success {
+  background-color: #39b924;
+  color: white;
+}
+
+/* line 28, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_labels.css.scss */
+.label--alert {
+  background-color: #f3490d;
+  color: white;
+}
+
+/* line 4, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_messages.css.scss */
+ul.messages,
+div.message {
+  list-style: none;
+  margin: 0 0 1rem 0;
+}
+
+/* line 9, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_messages.css.scss */
+li.message,
+div.message, li.message--neutral,
+div.message--neutral, li.message--success,
+div.message--success, li.message--alert,
+div.message--alert {
+  border-radius: 0.125rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  padding: 0.5rem 0.75rem;
+  vertical-align: baseline;
+}
+
+/* line 18, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_messages.css.scss */
+li.message,
+div.message {
+  background: #09a25f;
+  color: white;
+}
+
+/* line 25, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_messages.css.scss */
+li.message--neutral,
+div.message--neutral {
+  background: #ccd6d2;
+  color: #3f4542;
+}
+
+/* line 32, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_messages.css.scss */
+li.message--success,
+div.message--success {
+  background: #39b924;
+  color: white;
+}
+
+/* line 39, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_messages.css.scss */
+li.message--alert,
+div.message--alert {
+  background: #f3490d;
+  color: white;
+}
+
+/* line 3, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_pagination.css.scss */
+ul.pagination {
+  font-size: 0.875rem;
+  list-style: none;
+  margin: 0 0 1rem 0;
+  text-align: center;
+}
+/* line 9, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_pagination.css.scss */
+ul.pagination li {
+  display: inline-block;
+  margin-bottom: 0.25rem;
+}
+/* line 14, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_pagination.css.scss */
+ul.pagination li.pagination--gap {
+  background: none;
+  padding: 0.25rem 0.5rem;
+}
+/* line 19, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_pagination.css.scss */
+ul.pagination li.is-selected a {
+  background: #09a25f;
+  color: white;
+}
+/* line 23, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_pagination.css.scss */
+ul.pagination li.is-selected a:hover {
+  background: #038049;
+  color: white;
+}
+/* line 29, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_pagination.css.scss */
+ul.pagination li.is-selected a:active, ul.pagination li.is-selected a:focus {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+/* line 34, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_pagination.css.scss */
+ul.pagination a {
+  background: #ccd6d2;
+  border-radius: 0.125rem;
+  color: #3f4542;
+  display: block;
+  padding: 0.25rem 0.5rem;
+}
+/* line 41, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_pagination.css.scss */
+ul.pagination a:hover {
+  background: #aebbb6;
+  color: #3f4542;
+}
+/* line 47, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_pagination.css.scss */
+ul.pagination a:active, ul.pagination a:focus {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* line 3, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_panels.css.scss */
+.panel, .panel--callout {
+  background: #eef2f0;
+  border-radius: 0.125rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+/* line 10, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_panels.css.scss */
+.panel--callout {
+  background: #09a25f;
+  color: white;
+}
+
+/* line 3, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_quote.css.scss */
+blockquote {
+  color: #8d9994;
+  font: italic 1.125rem Georgia, serif;
+  line-height: 1.5em;
+  margin-bottom: 1rem;
+  padding: 0 0 0 2.5rem;
+  position: relative;
+  quotes: none;
+}
+/* line 12, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_quote.css.scss */
+blockquote:before {
+  content: "\201C";
+  display: block;
+  font-size: 5rem;
+  left: -0.5rem;
+  position: absolute;
+  top: 1.5rem;
+}
+/* line 21, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_quote.css.scss */
+blockquote cite {
+  display: block;
+  font-size: 0.875rem;
+}
+/* line 25, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_quote.css.scss */
+blockquote cite:before {
+  content: "\2014 \0020";
+}
+
+/* line 3, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_tables.css.scss */
+table {
+  border: 1px solid #aebbb6;
+  border-collapse: separate;
+  border-radius: 0.125rem;
+  border-spacing: 0;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+/* line 12, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_tables.css.scss */
+thead th {
+  background: white;
+  font-weight: bold;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+/* line 19, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_tables.css.scss */
+tbody tr:nth-child(2n+2) {
+  background: white;
+}
+
+/* line 21, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_tables.css.scss */
+tbody td {
+  border-left: 1px solid #ccd6d2;
+  border-top: 1px solid #ccd6d2;
+  padding: 0.5rem;
+}
+/* line 26, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_tables.css.scss */
+tbody td:first-child {
+  border-left: 0;
+}
+
+/* line 3, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_tabs.css.scss */
+div.tabs {
+  text-align: center;
+}
+/* line 6, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_tabs.css.scss */
+div.tabs ul {
+  background: #ccd6d2;
+  border-radius: 0.125rem;
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  text-align: center;
+}
+/* line 37, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_grid.css.scss */
+div.tabs ul:before, div.tabs ul:after {
+  content: "";
+  display: table;
+}
+/* line 42, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_grid.css.scss */
+div.tabs ul:after {
+  clear: both;
+}
+/* line 16, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_tabs.css.scss */
+div.tabs li {
+  float: left;
+}
+/* line 19, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_tabs.css.scss */
+div.tabs li:first-child a {
+  border-radius: 0.125rem 0 0 0.125rem;
+}
+/* line 21, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_tabs.css.scss */
+div.tabs li:last-child a {
+  border-radius: 0 0.125rem 0.125rem 0;
+}
+/* line 24, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_tabs.css.scss */
+div.tabs a {
+  color: #3f4542;
+  display: block;
+  padding: 0.5rem 0.75rem;
+}
+/* line 29, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_tabs.css.scss */
+div.tabs a:hover {
+  background: #aebbb6;
+  color: #3f4542;
+}
+/* line 35, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_tabs.css.scss */
+div.tabs a:active, div.tabs a:focus {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+/* line 40, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_tabs.css.scss */
+div.tabs li.is-selected a {
+  background: #09a25f;
+  color: white;
+  font-weight: bold;
+}
+/* line 45, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_tabs.css.scss */
+div.tabs li.is-selected a:hover {
+  background: #038049;
+  color: white;
+}
+/* line 51, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/shared-components/_tabs.css.scss */
+div.tabs li.is-selected a:active, div.tabs li.is-selected a:focus {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* line 5, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/modules/_user.css.scss */
+.user--avatar {
+  display: block;
+  width: 3em;
+  height: 3em;
+  border-radius: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* line 1, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/modules/_tweet.css.scss */
+.tweet {
+  margin-bottom: 3em;
+}
+
+@media print {
+  /* line 4, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_print.css.scss */
+  * {
+    background: transparent !important;
+    color: black !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important;
+  }
+
+  /* Black prints faster: h5bp.com/s */
+  /* line 5, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_print.css.scss */
+  a, a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 6, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_print.css.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 7, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_print.css.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 8, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_print.css.scss */
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+    content: "";
+  }
+
+  /* Don't show links for images, or javascript/internal links */
+  /* line 9, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_print.css.scss */
+  pre, blockquote {
+    page-break-inside: avoid;
+  }
+
+  /* line 10, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_print.css.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* h5bp.com/t */
+  /* line 11, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_print.css.scss */
+  tr, img {
+    page-break-inside: avoid;
+  }
+
+  /* line 12, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_print.css.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 2cm;
+}
+
+  /* line 14, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_print.css.scss */
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 15, /Users/Tom/Sites/je-doet-het-verkeerd/app/assets/stylesheets/core/_print.css.scss */
+  h2, h3 {
+    page-break-after: avoid;
+  }
+}
